@@ -1,0 +1,9 @@
+div {
+  color: red;
+}
+.h3 + h2 {
+  color: cyan;
+}
+.h3 ~ h3{
+    color:cyan
+}
