@@ -1,0 +1,34 @@
+div {
+  color: red;
+}
+.h3 + h2 {
+  color: cyan;
+}
+.h3 ~ h3 {
+  color: cyan;
+}
+h2:hover {
+  color: red;
+  font-size: 100px;
+}
+a:link {
+  color: cyan;
+}
+a:visited {
+  color: brown;
+}
+.vidu:empty {
+  color: violet;
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+}
+h2:first-child {
+  font-size: 40px;
+}
+h2:last-child {
+  font-size: 40px;
+}
+h2:nth-child(3) {
+  font-size: 40px;
+}
